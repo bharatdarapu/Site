@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800);
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+}
+header ul li {
+  display: inline-block;
+  /*height: 50px;*/
+  /*width: 80px;*/
+  text-align: center;
+  font-family: "open sans";
+  line-height: 48px;
+  padding: 0 20px 0 20px;
+}
+header ul li:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+header ul li.current {
+  background-color: #212121;
+  color: white;
+}
+
+#slides {
+  height: calc(100% - 100px);
+  width: 100%;
+}
+#slides nav {
+  font-size: 100px;
+  position: absolute;
+  left: 47%;
+  top: 70%;
+  color: white;
+  z-index: 100;
+}
+#slides nav i {
+  cursor: pointer;
+  opacity: 0.2;
+  transition: all 0.5s;
+}
+#slides .slide {
+  width: 100%;
+  /*height: 100%;*/
+  transition: transform 1s;
+  font-family: "open sans";
+  color: white;
+  text-align: center;
+}
+#slides .slide h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+#slides .slide0  {
+  background: #455a64;
+  position: relative;
+}
+#slides .slide0 #title {
+  position: relative;
+  top: 24%;
+}
+#slides .slide0 #title h1 {
+  text-align: center;
+  color: white;
+  font-family: "Open sans";
+  padding: 10px;
+  font-weight: 500;
+  padding-top: 0;
+}
+#slides .slide0 #title h2 {
+  text-align: center;
+  color: white;
+   font-family: "Open sans";
+  font-weight: 100;
+}
+#slides .slide1 {
+  display: none;
+  background-color: #388e3c;
+}
+#slides .slide2 {
+  display: none;
+  background-color: #FF3709;
+}
+#slides .slide2 h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+#slides .slide2 #canvas {
+  background: black;
+  margin: 0;
+  float: left;
+  margin-left: 20px;
+}
+#slides .slide3 {
+  display: none;
+  background-color: #00796b;
+}
+#slides .slide3 h2 {
+  padding-top: 20px;
+}
+
+#slides .slide3 ul a {
+  color: white;
+  text-decoration: none;
+}
+#slides .slide3 li {
+  font-weight: 100;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 150px;
+}
+#slides .slide3 li:hover {
+  background-color: rgba(201, 201, 201, 0.1);
+}
+
+footer {
+  height: 1%;
+  width: 100%;
+  text-align: center;
+  font-family: "open sans";
+  margin-top: 0.75%;
+}
+footer #links {
+  float: right;
+  font-size: 30px;
+  margin-right: 20px;
+}
+footer #links a {
+  color: #000000;
+}
+footer #links i {
+  opacity: 0.3;
+}
+footer #links i:hover {
+  opacity: 1;
+}
+footer p {
+  float: left;
+  margin-left: 20px;
+}
+
+ul
+ {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	line-height: 1
+}
+
+ol, ul {
+	list-style: none
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+       margin: auto;
+  }
+ 
+ #myCarousel {
+ height:40%;
+ }
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+		border-spacing: 0;
+    width: 50%;
+    color:white;
+}
+
+td, th {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+a:link {color: #ffeb3b}
+
+.card 
+{
+width:400px; 
+height:350px;
+padding:1%;
+margin:1%;	
+}
+
+.card-img-top
+{
+	width:100%;
+	height:50%;
+}
+
+.card-body
+{
+color:black;	
+}
+
+.card-text
+{
+padding:1%;	
+}
